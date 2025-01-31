@@ -37,8 +37,8 @@ const TaskList = ({ task, removeTask}: TaskListProps) => {
                     <li key={taskData.id}>
                         <h3 className={styles.taskTitle}>{taskData.title}</h3>
                         <div className={styles.taskListBtn}>
-                            <button onClick={() => {removeTask(taskData.id)}} className={styles.deleteBtn}><img src="src/assets/x.svg" alt="Delete Icon" /></button>
-                            <button onClick={() => {onViewDetailsClick(taskData)}} className={styles.viewDescriptionBtn}><img src="src/assets/three-dots.svg" alt="Ellipsis Icon" /></button>
+                            <button onClick={() => {removeTask(taskData.id)}} className={styles.deleteBtn}><img src="/x.svg" alt="Delete Icon" /></button>
+                            <button onClick={() => {onViewDetailsClick(taskData)}} className={styles.viewDescriptionBtn}><img src="/three-dots.svg" alt="Ellipsis Icon" /></button>
                         </div>
                     </li>
                 ))}
