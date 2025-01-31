@@ -1,0 +1,42 @@
+.addTaskForm {
+    background-color: var(--container-bg-color);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.title {
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: var(--menu-titles-bg-color);
+}
+
+.addTaskContainer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.addTaskForm > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.addTaskBtn {
+    background-color: var(--menu-titles-bg-color);
+}

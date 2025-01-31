@@ -1,0 +1,60 @@
+.taskListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 40px;
+    width: 300px;
+}
+
+.taskList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--container-bg-color);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.taskList li {
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: var(--menu-titles-bg-color);
+}
+
+.taskListBtn button {
+    border: none;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius: 7px;
+}
+
+.deleteBtn {
+    background-color: var(--delete-btn-bg-color);
+}
+
+.checkBtn {
+    background-color: var(--check-btn-bg-color);
+}
+
+.viewDescriptionBtn {
+    background-color: var(--view-description-btn-bg-color);
+}
+
+.taskTitle {
+    width: 150px;
+}
