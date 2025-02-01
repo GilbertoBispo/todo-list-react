@@ -25,7 +25,7 @@ function AddTask({ addTask }: addTaskProp) {
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault()
 
-        if(!taskTitle.trim() || !taskDesc.trim()) return alert("Preencha algo")
+        if(!taskTitle.trim() || !taskDesc.trim()) return alert("A title and description are required for the task.")
         
         // creating a new object with the data with the input data
         const newTask = {

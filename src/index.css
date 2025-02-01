@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --container-bg-color: #CDCDCD;
+    --menu-titles-bg-color: #3469E6;
+    --add-task-bg-color: #819FE6;
+
+    --delete-btn-bg-color: #EB7163;
+    --check-btn-bg-color: #83EB86;
+    --view-description-btn-bg-color: #dcdcdc;
+
+    font-family: "Roboto Condensed", sans-serif;
 }
