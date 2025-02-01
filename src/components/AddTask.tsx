@@ -48,10 +48,10 @@ function AddTask({ addTask }: addTaskProp) {
             <div className={styles.addTaskForm}>
                 <form onSubmit={handleSubmit} action="">
                     <label htmlFor="task-name" >Task Name:</label>
-                    <input value={taskTitle} onChange={(e)=>(setTaskTitle(e.target.value))} placeholder="Task Name" type="text" name="task-name" id="task-name"/>
+                    <input autoComplete="off" value={taskTitle} onChange={(e)=>(setTaskTitle(e.target.value))} placeholder="Task Name" type="text" name="task-name" id="task-name"/>
                     
                     <label htmlFor="task-description">Task Description:</label>
-                    <input value={taskDesc} onChange={(e) => (setTaskDesc(e.target.value))} placeholder="Task Description" type="text" name="task-description" id="task-description"/>
+                    <input autoComplete="off" value={taskDesc} onChange={(e) => (setTaskDesc(e.target.value))} placeholder="Task Description" type="text" name="task-description" id="task-description"/>
 
                     <input type="submit" value="Add Task" className={styles.addTaskBtn}/>
                 </form>
